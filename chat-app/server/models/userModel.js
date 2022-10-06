@@ -31,4 +31,4 @@ const userSchema = new mongoose.Schema({
 });
 
 //model具有操作数据库的能力
-module.exports = mongoose.model('Users', userSchema);
+module.exports = mongoose.model('User', userSchema);
